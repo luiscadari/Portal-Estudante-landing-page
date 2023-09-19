@@ -1,0 +1,76 @@
+/* Reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+    font-family: Lato;
+}
+
+:root{
+    --preto: #0EO40E;
+    --verde-main: #0EO40E;
+    --verde: #4BBD54;
+    --verde-opaco: #38A45B;
+    --azul-escuro: #070626
+}
+
+header nav #titulo{
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+
+.ifpr_logo{
+    width: 55px;
+    height: 55px;
+}
+
+.home{
+    display:inline-block;
+}
+
+.home img{
+    right: 0;
+    margin-right: 2%;
+    width: 500px;
+    height: 500px;
+    transition: 2s ease;
+    position: absolute;
+    border-radius: 40%;
+}
+
+.home h1{
+    font-size: 5rem;
+    margin-top: 10%;
+    margin-left: 1%;
+    position: absolute;
+}
+
+.home h3{
+    font-size: 2rem;
+    margin-top: 17%;
+    margin-left: 1%;
+    position: absolute;
+}
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.body-page{
+    margin-top: 40%;
+    text-align: center;
+    animation: fadeIn 2.5s ease-in-out;
+}
+
+.body-page label{
+    font-size: 3rem;
+}
+
+
