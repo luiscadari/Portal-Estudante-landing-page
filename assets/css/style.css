@@ -9,11 +9,11 @@
 }
 
 :root{
-    --preto: #0EO40E;
-    --verde-main: #0EO40E;
+    --preto: black;
+    --verde-main: #6FDC3D;
     --verde: #4BBD54;
     --verde-opaco: #38A45B;
-    --azul-escuro: #070626
+    --azul-escuro: #070626;
 }
 
 header nav #titulo{
@@ -71,6 +71,42 @@ header nav #titulo{
 
 .body-page label{
     font-size: 3rem;
+}
+
+.cards{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding-top: 10%;
+    color: var(--verde-main);
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    transition: 2s ease;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.cards .novidades{
+    display: inline-block;
+    background: var(--azul-escuro);
+    width: 310px;
+    height: 310px;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cards .novidades h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+.cards .novidades label{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.1rem;
 }
 
 
