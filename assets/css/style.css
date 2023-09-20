@@ -33,7 +33,7 @@ header nav #titulo{
 .home img{
     right: 0;
     margin-right: 7%;
-    width: 40%;
+    width: 30%;
     height: 70%;
     transition: 2s ease;
     position: absolute;
@@ -74,24 +74,18 @@ header nav #titulo{
 }
 
 .cards{
-    position: relative;
-    text-align: center;
     align-items: center;
-    padding-top: 10%;
-    color: var(--verde-main);
+    text-align: center;
     display: inline-block;
-    margin-left: 10%;
-    margin-right: 10%;
-    transition: 2s ease;
-    padding-right: 10%;
-    padding-left: 10%;
+    margin-top: 7%;
+    transition:3s ease;
 }
 
 .cards .novidades{
     display: inline-block;
     background: var(--azul-escuro);
-    width: 310px;
-    height: 310px;
+    width: 320px;
+    height: 320px;
     text-align: center;
     border-radius: 5%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
