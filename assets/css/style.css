@@ -103,4 +103,36 @@ header nav #titulo{
     font-size: 1.1rem;
 }
 
+.final{
+    align-items: center;
+    text-align: center;
+    margin-top: 17%;
+    position: relative;
+}
+
+.final h3{
+    font-size: 4rem;
+}
+
+.final label{
+    font-size: 2rem;
+}
+
+.final button{
+    margin-top: 5%;
+    margin-bottom: 7%;
+    width: 200px;
+    height: 50px;
+    border-radius: 10%;
+    font-size: 2rem;
+    background: var(--verde-main);
+    color: white;
+}
+
+.final button:hover{
+    background: var(--azul-escuro);
+    color: white;
+    border-color: var(--verde-main);
+}
+
 
