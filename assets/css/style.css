@@ -66,6 +66,7 @@ header nav #titulo{
 
 @media (max-width: 1000px){
     .home{
+        text-align: center;
         display:block;
         align-items: center;
     }
@@ -77,10 +78,8 @@ header nav #titulo{
         border-radius: 10%;
     }
     .home h1{
-        font-size: 5rem;
+        font-size: 3.5rem;
         margin-top: 10%;
-        margin-left: 25%;
-        margin-right: 25%;
         position: relative;
         display: inline-flex;
     }
@@ -88,37 +87,48 @@ header nav #titulo{
         display: inline-flex;
         font-size: 3rem;
         margin-top: 17%;
-        margin-left: 10%;
-        margin-right: 10%;
         position: relative;
     }
-    
+    .home button{
+        font-size: 1.2rem;
+        position: relative;
+        display: block;
+        margin-top: 22%;
+        width: 150px;
+        height: 45px;
+        text-align: center;
+        margin-left: 30%;
+        margin-right: 30%;
+      } 
 
-}
-
-@keyframes fadeIn{
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }
 
 .body-page{
     margin-top: 40%;
     text-align: center;
     animation: fadeIn 2.5s ease-in-out;
+    align-items: center;
 }
 
 .body-page label{
     font-size: 3rem;
 }
 
+@media (max-width: 600px){
+    .body-page label{
+        font-size: 2rem;
+    }
+    .body-page{
+        margin-top: 40%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
 .cards{
     align-items: center;
     text-align: center;
-    display: inline-block;
+    display: flex;
     margin-top: 7%;
     transition:3s ease;
 }
@@ -126,12 +136,17 @@ header nav #titulo{
 @media (max-width: 1000px){
     .cards{
         margin-top: 7%;
-        transition:3s ease;
+        display:block;
+        margin-left: 7%;
+    }
+    .cards .card{
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 }
 
 .cards .novidades{
-    display: inline-block;
+    display: flex;
     background: var(--azul-escuro);
     width: 320px;
     height: 320px;
@@ -176,6 +191,15 @@ header nav #titulo{
     text-align: center;
 }
 
+@media (max-width: 600px){
+    .final h3{
+        font-size:1.8rem;
+    }
+    .final label{
+        font-size:1.5rem;
+        padding-bottom: 10%;
+    }
+}
 
 
 
